@@ -33,7 +33,7 @@ h2,h3,h4{
 	height: 36px;
 	margin-top: 0px;
 	float: right;/*makes the heading float to the section element and changes along with it*/
-	margin-left: 290px;/*so that the section element does not come up*/
+	margin-left: 300px;/*so that the section element does not come up*/
 }
 
 h2{
@@ -69,19 +69,26 @@ h4{
 		margin-left: 0px;
 
 	}
+	
 	.three{/*since the 3rd section must occupy 100%perfectly*/
 		float: left;
 		margin-top: 40px;
+
 	}
 	.paneer{/*here i specified the section element instead of div cause only section's width can be expanded after div has 100% of the screen*/ 
 
-
+        
 		width: 95%;
+	}
+	p{
+		margin-top: 80px;
 	}
 		
 	h4{
+		float: right;
+		width: 220px;
+		margin-left: 530px;
 		
-		margin-left: 569px;
 	}
 }
 
@@ -96,6 +103,7 @@ h4{
 	h2,h3,h4{
 		margin-left: 520px;
 	}
-}
+
+	}
 
 /*took a really long time to complete this lol B-)*/
