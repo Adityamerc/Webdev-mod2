@@ -1,0 +1,101 @@
+/*border box styling*/
+*{
+	box-sizing: border-box;
+}
+/*the "our menu" heading */
+h1 {
+	margin-top:80px; 
+    margin-bottom: 80px;
+	text-align:center;
+	font-family: Comic Sans MS;
+	font-weight: Bold;
+	color: 	saddlebrown;
+}
+
+/*each food section*/
+section{
+	
+	width:90%;
+    padding-left: 10px;
+	margin-left:auto;/*margin auto makes the section centered  automatically*/
+	margin-right: auto;
+	font-family: Comic Sans MS;
+	background-color: grey; 
+	height: 210px;
+	border: 1px solid black;
+
+}
+
+h2,h3,h4{
+	border: 1px solid black;
+	text-align: center;
+	width: 120px;
+	height: 36px;
+	margin-top: 0px;
+	float: right;/*makes the heading float to the section element and changes along with it*/
+	margin-left: 290px;/*so that the section element does not come up*/
+}
+
+h2{
+	background-color: Chocolate;
+	color: black;
+}
+
+h3{
+	background-color: Coral;
+	color: black;
+}
+
+h4{
+	background-color: Darkseagreen;
+	color: black;
+}
+
+/*for large devices (laptops, pc's)*/
+@media(min-width: 992px){
+	.one,.two,.three{
+		float: left;
+		width: 33.33%;
+	}
+
+}
+/*for medium devices (tabs)*/
+
+@media(min-width: 768px) and (max-width: 991px){
+	.one, .two{
+		float: left;
+		width: 50%;
+		margin-right: 0px;
+		margin-left: 0px;
+
+	}
+	.three{/*since the 3rd section must occupy 100%perfectly*/
+		float: left;
+		margin-top: 40px;
+	}
+	.paneer{/*here i specified the section element instead of div cause only section's width can be expanded after div has 100% of the screen*/ 
+
+
+		width: 95%;
+	}
+		
+	h4{
+		
+		margin-left: 569px;
+	}
+}
+
+/*for small devices (mobiles)*/
+
+@media (max-width: 767px){
+	.one,.two,.three{
+		margin-top: 40px;
+
+
+	}
+	h2,h3,h4{
+		margin-left: 520px;
+	}
+}
+
+/*took a really long time to complete this lol B-)*/
